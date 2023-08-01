@@ -1,0 +1,3 @@
+- Uses markdown
+- "#" to create tags for easy look-up
+- Use internal links to connect ideas/expand ideas on separate page
