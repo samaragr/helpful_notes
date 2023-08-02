@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/How to - Obsidian.md",
+                "file": "Terraform/Terraform cert prep.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "fc96951ce23340c4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/How to - Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian/How to - Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Obsidian/How to - Obsidian.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,13 +151,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79b491bb91dd7fef",
+  "active": "fc96951ce23340c4",
   "lastOpenFiles": [
-    "Obsidian/Style settings - community plug-in.md",
+    "Python/Python - Cheat sheet.md",
+    "Python/Python - Reusing Code.md",
     "Obsidian/How to - Obsidian.md",
-    "Terraform/Cheat sheet.md",
-    "Terraform/Terraform cert prep.md",
-    "Untitled",
+    "Obsidian/Style settings - community plug-in.md",
+    "SQL/SQL - Basics.md",
+    "SQL - Murder mystery.md",
+    "SQL/SQL - Aggregates.md",
+    "SQL/Postgresql.md",
+    "Untitled.md",
+    "Python/Python - Basics.md",
+    "Python/Python - Classes.md",
+    "Python/Python - Dictionaries.md",
+    "Python/Python - Functions.md",
+    "Python/Python - Lists.md",
+    "Python/Python - Loops.md",
+    "Python/Python - Strings.md",
+    "SQL/SQL - Cheat sheet.md",
+    "SQL/SQL - Querying.md",
+    "SQL/SQL - Multiple tables.md",
+    "SQL/SQL - Manipulation.md",
+    "SQL/SQL - DDL.md",
+    "Pasted image 20221227152332.png.md",
+    "SQL/SQLite.md",
+    "SQL/SQL - Murder mystery.md",
+    "Untitled 1.md",
+    "Python/Python - assignment.md",
+    "Python",
+    "SQL",
+    "SQL",
     "Obsidian",
     "Terraform"
   ]

@@ -3,4 +3,5 @@
 - "#" to create tags for easy look-up
 - Use internal links to connect ideas/expand ideas on separate page `[[<page name> # <heading name> | <custom display text>]]`
 - Graph view shows overview of connected ideas
+- Set style under preferences>appearance ([[Style settings - community plug-in | Style settings]])
 - 
