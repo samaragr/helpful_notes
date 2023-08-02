@@ -1,3 +1,6 @@
+- https://help.obsidian.md/Getting+started/Download+and+install+Obsidian
 - Uses markdown
 - "#" to create tags for easy look-up
-- Use internal links to connect ideas/expand ideas on separate page
+- Use internal links to connect ideas/expand ideas on separate page `[[<page name> # <heading name> | <custom display text>]]`
+- Graph view shows overview of connected ideas
+- 

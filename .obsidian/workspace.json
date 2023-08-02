@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terraform/Cheat sheet.md",
+                "file": "Obsidian/How to - Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terraform/Cheat sheet.md",
+                "file": "Obsidian/How to - Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terraform/Cheat sheet.md",
+                "file": "Obsidian/How to - Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terraform/Cheat sheet.md"
+                "file": "Obsidian/How to - Obsidian.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "79b491bb91dd7fef",
   "lastOpenFiles": [
-    "Terraform/Terraform cert prep.md",
-    "Terraform/Cheat sheet.md",
     "Obsidian/Style settings - community plug-in.md",
     "Obsidian/How to - Obsidian.md",
+    "Terraform/Cheat sheet.md",
+    "Terraform/Terraform cert prep.md",
     "Untitled",
     "Obsidian",
     "Terraform"
