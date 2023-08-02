@@ -34,11 +34,11 @@ https://spacelift.io/blog/terraform-commands-cheat-sheet
 - `console` - Try Terraform expressions at an interactive command prompt
 - `fmt [options] [DIR]` - Reformat your configuration in the standard style, scans the current directory for configuration files ending in `tf` and `tfvars`
 	- `[options]` 
-		- `list`
-		- `write`
-		- `diff`
-		- `check`
-		- `recursive` - (run on parent for subdirectories)
+		- `--list=false` - Don’t list the files containing formatting inconsistencies.
+		- `--write=false` - Don’t overwrite the input files (implied by `-check` or STDIN)
+		- `--diff` - display formatting differences
+		- `--check` - useful in CI/CD pipelines, used to check correct formatting (exit status 0 = correct).
+		- `--recursive` - run on parent for subdirectories
 	- `[DIR]` - specifies directory 
 - `force-unlock` - Release a stuck lock on the current workspace
 - `get` - Install or upgrade remote Terraform modules
@@ -93,21 +93,23 @@ https://spacelift.io/blog/terraform-commands-cheat-sheet
 https://developer.hashicorp.com/terraform/cli/config/environment-variables
 - `TF_LOG` - generate detailed logs, output sent to `stderr` (std error output)
 	log levels - decreasing verbosity
-	- `TRACE` - default
-	- `DEBUG`
-	- `INFO`
-	- `WARN`
-	- `ERROR`
+	- `=trace` - default
+	- `=debug`
+	- `=info`
+	- `=warn`
+	- `=error`
+	- `=off` - disable
 - `TF_LOG_PATH` - write the resulting logs to a specific file location
-- `TF_INPUT` -
-- `TF_VAR_name` -
-- `TF_CLI_ARGS` -
-- `TF_CLI_ARGS_name` -
-- `TF_DATA_DIR` -
-- `TF_WORKSPACE` -
+- `TF_INPUT` - disable prompts for undefined variables. Set to `false` or `=0` same as `-input=false` 
+- `TF_VAR_name` - can be used to set variables
+- `TF_CLI_ARGS` - specify additional arguments to the command-line. good for CI env. Inserted directly after the subcommand. Affects all terraform commands
+	- `TF_CLI_ARGS_name` - Only affects named commands
+- `TF_DATA_DIR` - changes the location where Terraform keeps its per-working-directory data
+- `TF_WORKSPACE` - selection of workspace. Same as `terraform workspace select your_workspace`
 - `TF_IN_AUTOMATION` - 
-- `TF_REGISTRY_DISCORVERY_RETRY` - 
-- `TF_REGISTRY_CLIENT_TIMEOUT` - 
+- `TF_REGISTRY_DISCORVERY_RETRY` - configure the max number of request retries the remote registry client will attempt for client connection errors
+- `TF_REGISTRY_CLIENT_TIMEOUT` - default is 10s. Can be configured and increased.
 - `TF_CLI_CONFIG_FILE` - 
-- `TF_PLUGIN_CACHE_DIR` - 
-- `TF_IGNORE` - 
+- `TF_PLUGIN_CACHE_DIR` - an alternative way to set [the `plugin_cache_dir` setting in the CLI configuration](https://developer.hashicorp.com/terraform/cli/config/config-file#provider-plugin-cache).
+	- `TF_PLUGIN_CACHE_MAY_BREAK_DEPENDENCY_LOCK_FILE`
+- `TF_IGNORE` - `=trace` will output debug messages to display ignored files and folders. Useful for large repos.
