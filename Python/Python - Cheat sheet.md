@@ -7,10 +7,6 @@
 `dir("")` - list of all attributes and methods
 `help("")` - help for methods
 
-Values: **True**, **False**, **None** 
-Conditions: **if**, **elif**, **else** 
-Logical operators: **and**, **or**, **not** 
-
 [[Python - Basics]]
 `**` - to the power
 `//` - floor devision - takes integer part of the division as result (e.g. 5//2 = 2 instead of 2.5)
@@ -21,13 +17,11 @@ Logical operators: **and**, **or**, **not**
 `< `- less than
 `>= `- greater than or equal to
 `<=` - less than or equal to
-`and`
-`or`
-`not`
-
+`and` -
+`or` - 
+`not` -
 `+ "\n"` - to make a new line
 
-Functions: **def**, **return**
 [[Python - Functions]]
 `print("Hello world!")` - Syntax for printing a string of text
 `str (`*x*`)` - converts to string type
@@ -42,7 +36,6 @@ Functions: **def**, **return**
 `min(list)` - It returns an item from the list with a min value.
 `len(list)` - It gives the overall length of the list.
 `count()` - Returns the number of elements with the required value.
-
 
 [[Python - Loops]]
 Loops: **for**, **in**, **while**, **break**, **continue** 
