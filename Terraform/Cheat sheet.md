@@ -19,7 +19,7 @@
 `locals {}`
 
 
-## Commands
+## Terraform commands
 #commands #terraform
 https://spacelift.io/blog/terraform-commands-cheat-sheet
 

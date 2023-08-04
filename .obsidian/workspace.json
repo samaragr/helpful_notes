@@ -8,18 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79b491bb91dd7fef",
+            "id": "ab17ad64a6002029",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQLite.md",
+                "file": "Docker/Cheat sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2fb0ac0d3c742e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Dockerfile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7b3a54a77174ec5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Cheat sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5cf09d8eb857f09f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker/Docker info.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQLite.md",
+                "file": "Docker/Cheat sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQLite.md",
+                "file": "Docker/Cheat sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQLite.md"
+                "file": "Docker/Cheat sheet.md"
               }
             }
           }
@@ -146,8 +183,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79b491bb91dd7fef",
+  "active": "f7b3a54a77174ec5",
   "lastOpenFiles": [
+    "Docker/Docker info.md",
+    "Docker/Docker compose.md",
+    "Docker/Dockerfile.md",
+    "Docker/Cheat sheet.md",
+    "Kubernetes/Untitled.md",
+    "Terraform/Cheat sheet.md",
+    "Untitled",
+    "Docker",
+    "Kubernetes",
+    "Terraform/Terraform cert prep.md",
+    "SQL/SQLite.md",
     "SQL/SQL - Querying.md",
     "SQL/SQL - Multiple tables.md",
     "SQL/SQL - Manipulation.md",
@@ -166,14 +214,6 @@
     "Obsidian/Style settings - community plug-in.md",
     "Python/Python - Cheat sheet.md",
     "Python/Python - Basics.md",
-    "Obsidian/How to - Obsidian.md",
-    "SQL - Murder mystery.md",
-    "Untitled.md",
-    "Pasted image 20221227152332.png.md",
-    "SQL/SQLite.md",
-    "SQL/SQL - Murder mystery.md",
-    "Untitled 1.md",
-    "Python/Python - assignment.md",
     "Python",
     "SQL",
     "SQL",

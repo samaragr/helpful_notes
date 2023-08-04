@@ -1,0 +1,5 @@
+- containers - only lives as long as the process is alive, will not just run an OS
+- user access map ports from docker host to docker container for web access
+- persist data - map a directory on host to container directory
+- establish duplicate connection to docker host to detach
+- Dockerfile - instruction/argument
