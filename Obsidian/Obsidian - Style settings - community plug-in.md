@@ -11,7 +11,7 @@ Copy the below into "import" under style settings if you want, this is what I'm 
   "minimal-style@@code-background@@dark": "#303030",
   "minimal-style@@code-normal@@light": "#4E7441",
   "minimal-style@@h1-color@@dark": "#516F52",
-  "minimal-style@@h2-color@@dark": "#709771",
+  "minimal-style@@h2-color@@dark": "#7B96A9",
   "minimal-style@@h3-color@@dark": "#95C196",
   "minimal-style@@h4-color@@dark": "#86B3C7",
   "minimal-style@@h5-color@@dark": "#307D9F",

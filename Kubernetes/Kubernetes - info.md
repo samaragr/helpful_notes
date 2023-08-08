@@ -7,7 +7,7 @@
 ## Pods
 
 ## Replication Controller / ReplicaSet
-- replica set vs replication controller - replicaSet will take into acct pods already created into consideration through "Selector". Can be used to "monitor" pods
+- replica set vs replication controller - replicaSet will take pods already created into consideration through "Selector". Can be used to "monitor" pods
 
 ## Deployment
 
