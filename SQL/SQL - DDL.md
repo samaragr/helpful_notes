@@ -2,7 +2,7 @@ Type: #SQL #DDL  #general #constraints
 
 - `CREATE TABLE` -  Create new table
 	- e.g.
-```
+```sql
 CREATE TABLE person(
 id BIGSERIAL NOT NULL PRIMARY KEY,
 first_name VARCHAR(50) NOT NULL,
@@ -17,7 +17,7 @@ date_of_birth DATE NOT NULL,
 	PRIMARY KEY - designates primary key
 
 - e.g. 
-```
+```sql
 CREATE TABLE celebs (  
    id INTEGER,  
    name TEXT,  

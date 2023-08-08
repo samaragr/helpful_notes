@@ -1,0 +1,6 @@
+- StyleSettings - allows you to modify numeric, string, and colour CSS variables
+	- obsidian://show-plugin?id=obsidian-style-settings
+- Editor Syntax Highlight - allows syntax highlighting for code blocks in the editor.
+	- obsidian://show-plugin?id=cm-editor-syntax-highlight-obsidian
+- Obsidian Git
+	- obsidian://show-plugin?id=obsidian-git

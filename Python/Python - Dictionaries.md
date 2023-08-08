@@ -27,9 +27,13 @@ e.g use to store no. of files corresponding to file type
 	*dict*`.keys()` - returns keys
 	*dict*`.values()` - returns values
 	*dict*`.items()` - returns tuple for each element in dictionary. first = key, second = value
-		e.g.
-		`for ext, amount in file.items(): `
-		`print('There are {} files with the .{} extensions'.format(amount, ext))`
+e.g.
+```python
+for ext, amount in file.items():
+  print('There are {} files with the .{} extensions'.format(amount, ext))
+```
+
+
 
 #### Operations
 - `len(`*dictionary*`)` - Returns the number of items in a dictionary.

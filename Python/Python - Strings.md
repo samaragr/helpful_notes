@@ -3,19 +3,20 @@
 - Strings are sequences of characters and are immutable
 - character in string = use index 
 e.g.
-`name = "Samara"`
-`print (name[0])`
-`S`
+```python
+name = "Samara"
+print (name[0])
+# S
 
-`print (name[-1])`
-`a`
+print (name[-1])
+# a
 
-`name.index("m")`
-`2`
+name.index("m")
+# 2
 
-`name.index("a")`
-`1` - return first index it matches
-
+name.index("a")
+# 1 - return first index it matches
+```
 
 ### Operations
 #operations
@@ -26,18 +27,20 @@ e.g.
 -   **string[i:j]** - Accesses the substring starting at index **i**, ending at index **j** minus 1. If **i** is omitted, its value defaults to **0**. If **j** is omitted, the value will default to **len(string)**.
 
 ### Slice
-- portion of str conatining more than 1 character (substring)
-`color = "Orange"`
-`color [1:4]`
-`"ran"`
+- portion of str containing more than 1 character (substring)
+```python
+color = "Orange"
+color [1:4]
+"ran"
 
-`fruit = "Pineapple"`
-`print(fruit[:4])`
-`Pine`
+fruit = "Pineapple"
+print(fruit[:4])
+Pine
 
-`fruit = "Pineapple"`
-`print(fruit[4:])`
-`apple`
+fruit = "Pineapple"
+print(fruit[4:])
+apple
+```
 
 ### Str methods
 #strmethods
@@ -64,22 +67,26 @@ e.g.
 #formatting
 `.format()` - used to insert parameters into 
 e.g.
-`name = "Manny"`
-`number = len(name) * 3`
-`print("Hello {}, your lucky number is {}" .format(name, number)`
+```python
+name = "Manny"
+number = len(name) * 3
+print("Hello {}, your lucky number is {}" .format(name, number)
+```
 
 e.g
-`def student_grade(name, grade):`
-`return "{} received {}% on the exam" .format(name, grade)`
+```python
+def student_grade(name, grade):
+return "{} received {}% on the exam" .format(name, grade)
   
-`print(student_grade("Reed", 80))`
-`print(student_grade("Paige", 92))`
-`print(student_grade("Jesse", 85))`
+print(student_grade("Reed", 80))
+print(student_grade("Paige", 92))
+print(student_grade("Jesse", 85))
 
-output
+"""output
 Reed received 80% on the exam
 Paige received 92% on the exam
-Jesse received 85% on the exam
+Jesse received 85% on the exam"""
+```
 
 #### Formatting expressions
 `{:.2f}` - : separates from field name, .2f = format float number and 2dp after decimal

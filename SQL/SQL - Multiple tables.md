@@ -54,17 +54,19 @@ Type: #SQL #multipletables #join
 `WITH` - statement allows us to perform a separate query (such as aggregating customer’s subscriptions)
 	use an alias to contain a query, then run a second query on the alias
 	e.g.
-	`WITH previous_query AS (  `
-	   `SELECT customer_id,  `
-	     `COUNT(subscription_id) AS 'subscriptions'  `
-	  ` FROM orders  `
-	  ` GROUP BY customer_id  `
-	`)  `
-	`SELECT customers.customer_name,  `
-	 `  previous_query.subscriptions  `
-	`FROM previous_query  `
-	`JOIN customers  `
-	  `ON previous_query.customer_id = customers.customer_id;`
+```sql
+WITH previous_query AS ( 
+	SELECT customer_id, 
+	COUNT(subscription_id) AS 'subscriptions' 
+	FROM orders  
+	GROUP BY customer_id 
+	) 
+SELECT customers.customer_name,
+previous_query.subscriptions 
+FROM previous_query 
+JOIN customers 
+ON previous_query.customer_id = customers.customer_id;
+```
 
 `FULL JOIN` - (*FULL OUTER JOIN*) returns all rows from both tables
 

@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker - Dockerfile.md",
+                "file": "Obsidian/Obsidian - Style settings - community plug-in.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2370f68ccc4f6e20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ansible/Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Kubernetes - info.md",
+                "file": "SQL/SQL - Aggregates.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker - Dockerfile.md",
+                "file": "SQL/SQL - Aggregates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker - Dockerfile.md",
+                "file": "SQL/SQL - Aggregates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker - Dockerfile.md"
+                "file": "SQL/SQL - Aggregates.md"
               }
             }
           }
@@ -158,37 +171,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d18da99e0433ae16",
+  "active": "bae4a8d1b4053391",
   "lastOpenFiles": [
+    "SQL/Postgresql.md",
     "Obsidian/Obsidian - Style settings - community plug-in.md",
     "Obsidian/Obsidian - How to.md",
+    "Docker/Docker - Cheat sheet.md",
+    "Docker/Docker - Docker compose.md",
+    "Docker/Docker - Dockerfile.md",
+    "Docker/Docker - Info.md",
     "Kubernetes/Kubernetes - YAML.md",
     "Kubernetes/Kubernetes - info.md",
     "Kubernetes/Kubernetes - Cheat sheet.md",
-    "Kubernetes/Kuberenetes - Controllers.md",
-    "Kubernetes/Kubernetes - Kubectl.md",
-    "README.md",
-    "Docker/Docker - Cheat sheet.md",
-    "Docker/Docker - Dockerfile.md",
-    "Docker/Docker - Info.md",
-    "Docker/Docker - Docker compose.md",
-    "Terraform/Terraform - Cert prep.md",
     "Terraform/Terraform - Cheat sheet.md",
-    "Untitled",
-    "Docker",
-    "Kubernetes",
+    "Terraform/Terraform - Cert prep.md",
     "SQL/SQLite.md",
-    "SQL/SQL - Querying.md",
-    "SQL/SQL - Multiple tables.md",
-    "SQL/SQL - Manipulation.md",
-    "SQL/SQL - DDL.md",
-    "SQL/SQL - Cheat sheet.md",
     "SQL/SQL - Aggregates.md",
     "SQL/SQL - Basics.md",
-    "SQL/Postgresql.md",
+    "SQL/SQL - Cheat sheet.md",
+    "SQL/SQL - DDL.md",
+    "SQL/SQL - Manipulation.md",
+    "SQL/SQL - Multiple tables.md",
+    "SQL/SQL - Querying.md",
     "Python/Python - Strings.md",
     "Python/Python - Reusing Code.md",
     "Python/Python - Loops.md",
+    "Python/Python - Lists.md",
+    "Python/Python - Functions.md",
+    "Python/Python - Dictionaries.md",
+    "Ansible",
+    "Untitled",
+    "Docker",
+    "Kubernetes",
     "Python",
     "SQL",
     "SQL",

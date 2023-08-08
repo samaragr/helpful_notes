@@ -11,3 +11,10 @@
 - `ENV <NAME> <value>` - add environment variables 
 - `LABEL <label>` - add a label
 
+```dockerfile
+From ubuntu
+Run something
+COPY this
+ENV SECRET_PASSWORD=secretshhhhh
+```
+

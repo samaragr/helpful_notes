@@ -76,10 +76,12 @@ e.g.
 	`END` - ends the statement
 		+ `AS` - rename column shorter 
 e.g.
-`SELECT name,`
-`CASE`
-`WHEN genre = 'romance' THEN 'Chill'`
-`WHEN genre = 'comedy' THEN 'Chill'`
-`ELSE 'Intense'`
-`END AS 'Mood'`
-`FROM movies;`
+```sql
+SELECT name,
+CASE
+	WHEN genre = 'romance' THEN 'Chill'
+	WHEN genre = 'comedy' THEN 'Chill'
+	ELSE 'Intense'
+	END AS 'Mood'
+FROM movies;
+```

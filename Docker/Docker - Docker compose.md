@@ -46,34 +46,42 @@
 ## Formatting 
 - double space indent
 ### Version 1
-- `<container>:`
-	- `image:` - specify image
-		- `build: <./dockerfile>` - replace `image` with build if image not yet built
-	- `ports:`
-		- `- <host>:<internal>`
-	- `links:`
-		- `- <conatiner:host>` - ==deprecated?== links container to container
+```yaml
+<container>:
+image: # specify image
+build: <./dockerfile> # replace image with build if image not yet built
+ports:
+  - <host>:<internal>
+links:
+  - <conatiner:host> # ==deprecated?== links container to container
+```
 
 ### Version 2
 
-- `version: 2`
-- `services:`
-	- `<container>:`
-		- `image:` 
-		- `ports:`
-			- `- <host>:<internal>`
-		- `depends_on:`
-- `networks:`
-- `volumes:`
+```yaml
+version: 2
+services:
+  <container>:
+    image:
+    ports:
+      - <host>:<internal>
+    depends_on:
+networks:
+volumes:
+```
 
 ### Version 3
 
-- `version: 3`
-- `services:`
-	- `<container>:`
-		- `image:` 
-		- `ports:`
-			- `- <host>:<internal>`
-		- `depends_on:`
--  `networks:`
-- `volumes:`
+```yaml
+version: 3
+services:
+  <container>:
+    image:
+    ports:
+      - <host>:<internal>
+    depends_on:
+networks:
+volumes:
+```
+
+
