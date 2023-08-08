@@ -48,10 +48,10 @@ https://spacelift.io/blog/terraform-commands-cheat-sheet
 - `logout` - Remove locally-stored credentials for a remote host
 - `metadata` - Metadata related commands
 - `output` - Show output values from your root module
-- `providers` - Show the [[Terraform cert prep#Providers|providers]] required for this configuration
+- `providers` - Show the [[Terraform - Cert prep#Providers|providers]] required for this configuration
 - `refresh` - Update the state to match remote systems
 - `show` - Show the current state or a saved plan
-- `state` - [[Terraform cert prep#State|Advanced state management]]
+- `state` - [[Terraform - Cert prep#State|Advanced state management]]
 	- `list [options] [address...]` - subcommand lists resources in the state.
 		- `[options]` 
 			- `-state=statefile` - specify a particular state file
@@ -72,14 +72,14 @@ https://spacelift.io/blog/terraform-commands-cheat-sheet
 		- `<address>` - address of a resource using the same syntax we’d use inside a configuration
 - `untaint` - Remove the 'tainted' state from a resource instance
 - `version` - Show the current Terraform version
-- `workspace` - [[Terraform cert prep#Workspace|Workspace]] management (`env` - likely to be deprecated)
+- `workspace` - [[Terraform - Cert prep#Workspace|Workspace]] management (`env` - likely to be deprecated)
 	- `new <workspace name>` - command creates a new workspace and selects it. 
 	- `select <workspaace name>` - command selects an existing workspace.
 	- `list` - command lists the existing workspaces.
 	- `show` - command shows the name of the current workspace.
 	- `delete <workspace name>` - command deletes an empty workspace. state file must be empty and workspace not currently selected
 		- `-force` flag can be specified if the state file isn’t empty, and the resources created by the state file will be abandoned.
-- `provisioner` - [[Terraform cert prep#Provisioners|provisioners]] used when have scripts or operations to perform locally or on the remote resource
+- `provisioner` - [[Terraform - Cert prep#Provisioners|provisioners]] used when have scripts or operations to perform locally or on the remote resource
 	- `remote-exec` - will run a script on the remote machine through WinRM or SSH
 	- `local-exec` - will run a script on local machine.
 

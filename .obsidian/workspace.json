@@ -8,55 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ab17ad64a6002029",
+            "id": "d18da99e0433ae16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Cheat sheet.md",
+                "file": "Kubernetes/Kubernetes - YAML.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a2fb0ac0d3c742e5",
+            "id": "bae4a8d1b4053391",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerfile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7b3a54a77174ec5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Cheat sheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cf09d8eb857f09f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker info.md",
+                "file": "Kubernetes/Kubernetes - info.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Cheat sheet.md",
+                "file": "Kubernetes/Kubernetes - YAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Cheat sheet.md",
+                "file": "Kubernetes/Kubernetes - YAML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Cheat sheet.md"
+                "file": "Kubernetes/Kubernetes - YAML.md"
               }
             }
           }
@@ -183,18 +158,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7b3a54a77174ec5",
+  "active": "d18da99e0433ae16",
   "lastOpenFiles": [
-    "Docker/Docker info.md",
-    "Docker/Docker compose.md",
-    "Docker/Dockerfile.md",
-    "Docker/Cheat sheet.md",
-    "Kubernetes/Untitled.md",
-    "Terraform/Cheat sheet.md",
+    "Kubernetes/Kubernetes - Cheat sheet.md",
+    "Kubernetes/Kubernetes - YAML.md",
+    "Kubernetes/Kubernetes - info.md",
+    "Kubernetes/Kuberenetes - Controllers.md",
+    "Kubernetes/Kubernetes - Kubectl.md",
+    "README.md",
+    "Docker/Docker - Cheat sheet.md",
+    "Docker/Docker - Dockerfile.md",
+    "Docker/Docker - Info.md",
+    "Docker/Docker - Docker compose.md",
+    "Obsidian/Obsidian - Style settings - community plug-in.md",
+    "Obsidian/Obsidian - How to.md",
+    "Terraform/Terraform - Cert prep.md",
+    "Terraform/Terraform - Cheat sheet.md",
     "Untitled",
     "Docker",
     "Kubernetes",
-    "Terraform/Terraform cert prep.md",
     "SQL/SQLite.md",
     "SQL/SQL - Querying.md",
     "SQL/SQL - Multiple tables.md",
@@ -207,13 +189,6 @@
     "Python/Python - Strings.md",
     "Python/Python - Reusing Code.md",
     "Python/Python - Loops.md",
-    "Python/Python - Lists.md",
-    "Python/Python - Functions.md",
-    "Python/Python - Dictionaries.md",
-    "Python/Python - Classes.md",
-    "Obsidian/Style settings - community plug-in.md",
-    "Python/Python - Cheat sheet.md",
-    "Python/Python - Basics.md",
     "Python",
     "SQL",
     "SQL",
