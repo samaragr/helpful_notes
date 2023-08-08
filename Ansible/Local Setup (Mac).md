@@ -10,7 +10,7 @@ https://sourabhbajaj.com/mac-setup/Vagrant/README.html
 > mkdir ansible
 > vim Vagrantfile
 
-```
+```ruby
 IP_NW = "192.168.33."
 NODE_IP_START = 1
 NUM_NODE = 2

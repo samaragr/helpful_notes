@@ -56,7 +56,7 @@ all:
 
 ## Playbook.yaml examples 
 #### Use `command` module to view the content of `/etc/resolv.conf` file
-```
+```yaml
 - name: Execute a command on localhost
   hosts: localhost
   connection: local
@@ -66,7 +66,7 @@ all:
 ```
 
 #### Use `file` module to create empty file under a folder and change ownership to user `vagrant`
-```
+```yaml
 ---
 - hosts: node01
   become: true
@@ -88,7 +88,7 @@ all:
 ```
 
 #### Use `copy` module to create a file with text content
-```
+```yaml
 ---
 - hosts: node01
   become: true
@@ -102,7 +102,7 @@ all:
 Note: Use `become: true` when it is required to execute the command by sudo user.
 
 #### Use `copy` module to copy file from localhost to both remote nodes
-```
+```yaml
 ---
 - hosts: all
   become: true
@@ -114,7 +114,7 @@ Note: Use `become: true` when it is required to execute the command by sudo user
 ```
 
 #### Use `replace` module to replace text in file
-```
+```yaml
 ---
 - hosts: node01
   become: true
@@ -134,7 +134,7 @@ Note: Use `become: true` when it is required to execute the command by sudo user
 ```
 
 #### Conditional command
-```
+```yaml
 ---
 - name: 'Am I a Banana or not?'
   hosts: localhost
@@ -150,7 +150,7 @@ Note: Use `become: true` when it is required to execute the command by sudo user
 ```
 
 #### Loop
-```
+```yaml
 ---
 - name: 'Print fruits'
   hosts: localhost
@@ -167,7 +167,7 @@ Note: Use `become: true` when it is required to execute the command by sudo user
 ```
 
 Or use `loop` in latest version of Ansible
-```
+```yaml
 ---
 - name: 'Print fruits'
   hosts: localhost
@@ -187,7 +187,7 @@ Note: `with_*` is available based on the availability of the `lookup` plugin. It
 
 For example:
 `with_list` is directly replaced by `loop`
-```
+```yaml
 - name: with_list
   ansible.builtin.debug:
     msg: "{{ item }}"
@@ -204,7 +204,7 @@ For example:
 ```
 
 `with_flatten` is replaced by `loop` and `flatten` filter
-```
+```yaml
 - name: with_flattened
   ansible.builtin.debug:
     msg: "{{ item }}"
@@ -219,7 +219,7 @@ For example:
 For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_loops.html#migrating-to-loop
 
 #### Use `yum` module to install `vim-enhanced` package
-```
+```yaml
 ---
 - name: 'Install the required package'
   hosts: all
@@ -231,7 +231,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
 ```
 
 #### Use `copy` module to copy file to the nodes with owner, group, and permission
-```
+```yaml
 ---
 - hosts: all
   become: true
@@ -256,7 +256,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
 ```
 
 #### Use `lineinfile` module Add line of text into file
-```
+```yaml
 ---
 - hosts: node01
   become: true
@@ -269,7 +269,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
 ```
 
 #### Use `service` module to manage Linux service status
-```
+```yaml
 ---
 - hosts: all
   become: true
@@ -284,7 +284,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
 ```
 
 #### Use `archive` module to create an archive (tar.gz) file
-```
+```yaml
 ---
 - hosts: all
   become: true
@@ -304,7 +304,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
 
 #### Install and start nginx
 > vim ~/ansible/roles/package/tasks/main.yml
-```
+```yaml
 ---
 # tasks file for nginx
 - name: Install Nginx
@@ -319,7 +319,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
 
 #### Consume the role in playbook to apply on Node01
 > vim ~/ansible/role.yml
-```
+```yaml
 ---
 - hosts: node01
   become: true

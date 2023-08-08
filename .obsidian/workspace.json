@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL - Aggregates.md",
+                "file": "Ansible/Local Setup (Mac).md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQL - Aggregates.md",
+                "file": "Ansible/Local Setup (Mac).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQL - Aggregates.md",
+                "file": "Ansible/Local Setup (Mac).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQL - Aggregates.md"
+                "file": "Ansible/Local Setup (Mac).md"
               }
             }
           }
@@ -173,6 +173,8 @@
   },
   "active": "bae4a8d1b4053391",
   "lastOpenFiles": [
+    "Ansible/Cheatsheet.md",
+    "SQL/SQL - Aggregates.md",
     "SQL/Postgresql.md",
     "Obsidian/Obsidian - Style settings - community plug-in.md",
     "Obsidian/Obsidian - How to.md",
@@ -186,7 +188,6 @@
     "Terraform/Terraform - Cheat sheet.md",
     "Terraform/Terraform - Cert prep.md",
     "SQL/SQLite.md",
-    "SQL/SQL - Aggregates.md",
     "SQL/SQL - Basics.md",
     "SQL/SQL - Cheat sheet.md",
     "SQL/SQL - DDL.md",
@@ -198,7 +199,6 @@
     "Python/Python - Loops.md",
     "Python/Python - Lists.md",
     "Python/Python - Functions.md",
-    "Python/Python - Dictionaries.md",
     "Ansible",
     "Untitled",
     "Docker",
