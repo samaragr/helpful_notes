@@ -327,4 +327,4 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
     - roles/package
 ```
 
-Run `ansible-playbook ~/ansible/role.yml` will run through the talks specified in the role.
+Run `ansible-playbook ~/ansible/role.yml` will go through the tasks specified in the role (install nginx and start the nginx service)
