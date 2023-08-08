@@ -31,7 +31,7 @@ two.example.com
 three.example.com
 ```
 ##### YAML format
-```
+```yaml
 all:
   hosts:
     mail.example.com:
