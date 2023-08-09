@@ -1,4 +1,4 @@
-# Playbook Cheatsheet (YAML)
+## Playbook Cheatsheet (YAML)
 ## Ansible Playbook
 > mkdir ~/ansible/playbook
 > cd ~/ansible/playbook
@@ -10,13 +10,15 @@ host_key_checking = False
 ```
 
 ## Inventory file
-| Argument  | Example |
-|---|---|
-| ansible_host  | node01 |
-| ansible_port | 22 (default) |
-| ansible_user | username |
-| ansible_pass | password |
+
+| Argument                     | Example                 |
+| ---------------------------- | ----------------------- |
+| ansible_host                 | node01                  |
+| ansible_port                 | 22 (default)            |
+| ansible_user                 | username                |
+| ansible_pass                 | password                |
 | ansible_ssh_private_key_file | path/to/ssh_private_key |
+
 ##### INI format
 ```
 mail.example.com
@@ -49,13 +51,13 @@ all:
 ```
 
 ## Playbook
-##### Run Playbook in localhost
+### Run Playbook in localhost
 > ansible-playbook -i localhost, playbook.yml -vv
 ##### Run Playbook by inventory hosts
 > ansible-playbook -i inventory playbook.yml
 
-## Playbook.yaml examples 
-#### Use `command` module to view the content of `/etc/resolv.conf` file
+### Playbook.yaml examples 
+Use `command` module to view the content of `/etc/resolv.conf` file
 ```yaml
 - name: Execute a command on localhost
   hosts: localhost
@@ -65,7 +67,8 @@ all:
       command: cat /etc/resolv.conf
 ```
 
-#### Use `file` module to create empty file under a folder and change ownership to user `vagrant`
+ Use `file` module to create empty file under a folder and change ownership to user `vagrant`
+ 
 ```yaml
 ---
 - hosts: node01
@@ -87,7 +90,8 @@ all:
         owner: vagrant
 ```
 
-#### Use `copy` module to create a file with text content
+Use `copy` module to create a file with text content
+
 ```yaml
 ---
 - hosts: node01
@@ -101,7 +105,8 @@ all:
 
 Note: Use `become: true` when it is required to execute the command by sudo user.
 
-#### Use `copy` module to copy file from localhost to both remote nodes
+Use `copy` module to copy file from localhost to both remote nodes
+ 
 ```yaml
 ---
 - hosts: all
@@ -113,7 +118,7 @@ Note: Use `become: true` when it is required to execute the command by sudo user
         remote_src: yes
 ```
 
-#### Use `replace` module to replace text in file
+Use `replace` module to replace text in file
 ```yaml
 ---
 - hosts: node01
@@ -218,7 +223,7 @@ For example:
 
 For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_loops.html#migrating-to-loop
 
-#### Use `yum` module to install `vim-enhanced` package
+Use `yum` module to install `vim-enhanced` package
 ```yaml
 ---
 - name: 'Install the required package'
@@ -230,7 +235,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
         state: present
 ```
 
-#### Use `copy` module to copy file to the nodes with owner, group, and permission
+Use `copy` module to copy file to the nodes with owner, group, and permission
 ```yaml
 ---
 - hosts: all
@@ -255,7 +260,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
       when: inventory_hostname == "node02"
 ```
 
-#### Use `lineinfile` module Add line of text into file
+Use `lineinfile` module Add line of text into file
 ```yaml
 ---
 - hosts: node01
@@ -268,7 +273,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
       insertbefore: BOF
 ```
 
-#### Use `service` module to manage Linux service status
+Use `service` module to manage Linux service status
 ```yaml
 ---
 - hosts: all
@@ -283,7 +288,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
       state: started
 ```
 
-#### Use `archive` module to create an archive (tar.gz) file
+Use `archive` module to create an archive (tar.gz) file
 ```yaml
 ---
 - hosts: all
@@ -295,14 +300,14 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
       dest: /opt/ecommerce/demo.tar.gz
 ```
 
-#### Install `geerlingguy.nodejs` from Ansible Galaxy
+Install `geerlingguy.nodejs` from Ansible Galaxy
 > ansible-galaxy install geerlingguy.nodejs -p ~/ansible/roles
 
-#### Create an Ansible role called package
+Create an Ansible role called package
 > cd ~/ansible/roles
 > ansible-galaxy init package
 
-#### Install and start nginx
+Install and start nginx
 > vim ~/ansible/roles/package/tasks/main.yml
 ```yaml
 ---
@@ -317,7 +322,7 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
     state: started
 ```
 
-#### Consume the role in playbook to apply on Node01
+Consume the role in playbook to apply on Node01
 > vim ~/ansible/role.yml
 ```yaml
 ---
