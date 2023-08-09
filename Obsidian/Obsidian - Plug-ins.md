@@ -2,5 +2,11 @@
 	- obsidian://show-plugin?id=obsidian-style-settings
 - Editor Syntax Highlight - allows syntax highlighting for code blocks in the editor.
 	- obsidian://show-plugin?id=cm-editor-syntax-highlight-obsidian
-- Obsidian Git
+- Obsidian Git - integrated tool
 	- obsidian://show-plugin?id=obsidian-git
+- Advanced tables - auto fills in pipes etc for formatting
+	- obsidian://show-plugin?id=table-editor-obsidian
+- Admonition - block style editor
+	- obsidian://show-plugin?id=obsidian-admonition
+- Sliding panes - easy pane switcher
+	- obsidian://show-plugin?id=sliding-panes-obsidian 

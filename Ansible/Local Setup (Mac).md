@@ -1,11 +1,11 @@
-# Setup local dev environment (Mac)
-## Install VirtualBox & Vagrant
+## Setup local dev environment (Mac)
+### Install VirtualBox & Vagrant
 https://www.virtualbox.org/wiki/Downloads
 https://sourabhbajaj.com/mac-setup/Vagrant/README.html
 
 > brew install vagrant
 
-## Vagrantfile
+#### Vagrantfile
 > cd ~
 > mkdir ansible
 > vim Vagrantfile
@@ -50,15 +50,15 @@ Logout from inside the target machine terminal:
 Delete machines (optional):
 > vagrant destroy
 
-## Locate SSH private key
+### Locate SSH private key
 > vagrant ssh-config
 
 Note down the `IdentityFile` value.
 
-## Install Ansible on host machine (Mac)
+### Install Ansible on host machine (Mac)
 > brew install ansible
 
-## Ansible hosts / Inventory
+### Ansible hosts / Inventory
 Edit or create if not exists:
 > vim /etc/ansible/hosts
 
@@ -74,7 +74,7 @@ The `insecure_private_key` refers to the `IdentityFile` value found above.
 
 Note: Ansible looks up the hosts file by default. Custom inventory file can be created in individual project folder to override the default hosts.
 
-## Test Ansible connection to target Linux machines
+### Test Ansible connection to target Linux machines
 > ansible node01 -m ping
 > ansible node02 -m ping
 
