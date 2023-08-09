@@ -328,3 +328,44 @@ For details, refer to https://docs.ansible.com/ansible/latest/playbook_guide/pla
 ```
 
 Run `ansible-playbook ~/ansible/role.yml` will go through the tasks specified in the role (install nginx and start the nginx service)
+
+#### Run task2 based on the output value of task1
+```yaml
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Ensure Apache is at the latest version
+      yum:
+        name: httpd
+        state: present
+      register: httpd_installation_status
+    - name: Ensure Apache is running
+      service:
+        name: httpd
+        state: started
+      when: httpd_installation_status.changed == True
+```
+Alternatively, use Ansible Handler to execute dependant tasks:
+```yaml
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Ensure Apache is at the latest version
+      yum:
+        name: httpd
+        state: present
+      notify: 
+        - Ensure Apache is running
+        - Ensure Apache status
+  handler:
+    - name: Ensure Apache is running
+      service:
+        name: httpd
+        state: started
+    - name: Ensure Apache status
+      service:
+        name: httpd
+        state: status
+```
