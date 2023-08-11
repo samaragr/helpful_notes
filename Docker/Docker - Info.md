@@ -3,7 +3,7 @@ Type: #docker #general
 - containers - only lives as long as the process is alive, will not just run an OS
 - user access map ports from docker host to docker container for web access
 - persist data - map a directory on host to container directory
-- establish duplicate connection to docker host to detach
+- establish duplicate connection to docker host to detach from container
 - Dockerfile - instruction/argument
 - registry (dockerhub [docker.io] )- upload/pull images
 - files stored under `/var/lib/docker`
@@ -20,5 +20,4 @@ Type: #docker #general
 - default networks
 	- Bridge - default network
 	- none
-	- host - conatiner here doesn't need port mapping as its on host network
-- 
+	- host - container here doesn't need port mapping as its on host network

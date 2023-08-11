@@ -4,7 +4,7 @@ Type: #AWS #EMR #EKS #kubernetes
 - Virtual cluster
 - Submit Spark Job
 - AWS CLI
-- `eksctl` CLI
+- `eksctl` CLI and `eksctl` provider for Terraform: https://github.com/mumoshu/terraform-provider-eksctl
 - Amazon EMR containers CLI
 - Job template
   - Create and use
@@ -17,6 +17,37 @@ Type: #AWS #EMR #EKS #kubernetes
 - To enable Logging, IAM policy requires permission to access the target destination (S3 location, CloudWatch log stream, log group, etc)
 
 ## Get started
+#### Create EKS Cluster by `eksctl` CLI
+> vim cluster.yml
+
+```
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: EKS-cluster
+  region: us-west-2
+
+nodeGroups:
+  - name: ng-1
+    instanceType: m5.large
+    desiredCapacity: 10
+    volumeSize: 80
+    ssh:
+      allow: true # will use ~/.ssh/id_rsa.pub as the default ssh key
+  - name: ng-2
+    instanceType: m5.xlarge
+    desiredCapacity: 2
+    volumeSize: 100
+    ssh:
+      publicKeyPath: ~/.ssh/ec2_id_rsa.pub
+```
+> eksctl create cluster -f cluster.yml
+
+View and validate:
+> kubectl get nodes -o wide
+> kubectl get pods --all-namespaces -o wide
+
 #### Register EKS Cluster with EMR using AWS CLI
 ```
 aws emr-containers create-virtual-cluster \
