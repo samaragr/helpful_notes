@@ -20,7 +20,7 @@ Type: #AWS #EMR #EKS #kubernetes
 #### Create EKS Cluster by `eksctl` CLI
 > vim cluster.yml
 
-```
+``` yaml
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
@@ -127,13 +127,13 @@ Example - Submit a Job run with JSON file:
 
 ##### Spark-submit
 1. Setup environment variables
-```
+```yaml
 export SPARK_HOME=spark-home
 export MASTER_URL=k8s://Amazon EKS-cluster-endpoint
 ```
 
 2. Submit Spark application
-```
+```yaml
 SPARK_HOME/bin/spark-submit \
     --class org.apache.spark.examples.SparkPi \
     --master $MASTER_URL \
