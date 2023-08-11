@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
+                "file": "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
+                "file": "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
+                "file": "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md"
+                "file": "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md"
               }
             }
           }
@@ -148,18 +148,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ac783518763af276",
+  "active": "80ad808a3a7ddc6b",
   "lastOpenFiles": [
+    "AWS/AWS - EKS/AWS - EKS - YAML.md",
+    "AWS/AWS - EKS/AWS - EKS - eksctl.md",
+    "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
+    "AWS/AWS - EKS/AWS - EKS - CloudFormation.md",
     "Kubernetes/EMR on EKS/Notes.md",
-    "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
     "Images/Images.md",
     "Docker/Docker - Dockerfile.md",
     "Docker/Docker - Info.md",
     "Docker/Docker - Docker compose.md",
     "Docker/Docker - Cheat sheet.md",
-    "AWS/AWS - EKS/AWS - EKS - YAML.md",
-    "AWS/AWS - EKS/AWS - EKS - eksctl.md",
-    "AWS/AWS - EKS/AWS - EKS - CloudFormation.md",
     "Obsidian/Obsidian - Style settings - community plug-in.md",
     "Obsidian/Obsidian - Shortcuts.md",
     "Obsidian/Obsidian - Plug-ins.md",
