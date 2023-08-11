@@ -1,4 +1,4 @@
-
+Type: #terraform #cheatsheet 
 ## Block types
 #terraform #blocktypes
 - Terraform - define global config and behaviour

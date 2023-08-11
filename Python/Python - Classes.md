@@ -1,3 +1,5 @@
+Type: #python #class #language 
+
 - define a new class, classes start with capital letter
 ```python
 class Apple:

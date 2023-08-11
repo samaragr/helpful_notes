@@ -1,4 +1,4 @@
-Type: #SQL #querying #operators #case 
+Type: #SQL #querying #operators #case #language 
 
 ## SELECT
 `SELECT`  - used to fetch data from a databse (*column name/s*). Used everytime you want to query info from a database

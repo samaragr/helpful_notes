@@ -1,3 +1,5 @@
+Type: #ansible #setup 
+
 ## Setup local dev environment (Mac)
 ### Install VirtualBox & Vagrant
 https://www.virtualbox.org/wiki/Downloads

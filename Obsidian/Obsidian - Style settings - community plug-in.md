@@ -1,4 +1,4 @@
-
+Type: #Obsidian #styleguide
 
 Currently using "minimal" theme (preferences>appearance)
 Copy the below into "import" under style settings if you want, this is what I'm currently using.

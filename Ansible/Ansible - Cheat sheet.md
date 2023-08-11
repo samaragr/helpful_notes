@@ -1,3 +1,5 @@
+Type: #ansible #cheatsheet 
+
 ## Playbook Cheatsheet (YAML)
 ## Ansible Playbook
 > mkdir ~/ansible/playbook

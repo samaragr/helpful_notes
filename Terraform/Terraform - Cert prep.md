@@ -1,4 +1,4 @@
-
+Type: #terraform #general 
 ## IaC
 - define cloud and on-prem resources that are versionable, can be reused and shared
 

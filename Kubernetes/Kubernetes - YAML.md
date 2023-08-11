@@ -1,3 +1,5 @@
+Type: #kubernetes #inputFile #yaml 
+
 ## Pod
 
 ```YAML

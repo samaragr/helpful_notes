@@ -1,4 +1,4 @@
-Type: #SQL #multipletables #join
+Type: #SQL #multipletables #join #language 
 
 - ==Primary key== - a column that uniquely identifies each row of that table
 	-   None of the values can be `NULL`.

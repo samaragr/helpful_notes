@@ -1,3 +1,5 @@
+Type: #python #string #language 
+
 ## Strings
 #strings
 - Strings are sequences of characters and are immutable

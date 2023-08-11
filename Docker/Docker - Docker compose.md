@@ -1,3 +1,5 @@
+Type: #docker #DockerCompose #inputFile
+
 - https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.programonaut.com%2Fthe-most-important-docker-compose-properties%2F&psig=AOvVaw085LhsB0uV72TQNWd8Ppdf&ust=1691207724747000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLD69u-NwoADFQAAAAAdAAAAABAE
 - from v2 - network auto created for all containers in yaml so links not needed
 - can create custom project name in command line

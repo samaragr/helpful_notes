@@ -8,43 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d18da99e0433ae16",
+            "id": "80ad808a3a7ddc6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Obsidian - Style settings - community plug-in.md",
+                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2370f68ccc4f6e20",
+            "id": "209911a0cf73a441",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ansible/Ansible - Cheatsheet.md",
+                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bae4a8d1b4053391",
+            "id": "ce9b25f41b434000",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ansible/Local Setup (Mac).md",
+                "file": "Obsidian/Obsidian - Formatting guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ansible/Local Setup (Mac).md",
+                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ansible/Local Setup (Mac).md",
+                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ansible/Local Setup (Mac).md"
+                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md"
               }
             }
           }
@@ -173,42 +173,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bae4a8d1b4053391",
+  "active": "209911a0cf73a441",
   "lastOpenFiles": [
-    "Ansible/Ansible - Cheatsheet.md",
-    "Obsidian/Obsidian - How to.md",
-    "Obsidian/Obsidian - Plug-ins.md",
+    "AWS/AWS - EKS/AWS - EKS -.md",
+    "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
+    "AWS/AWS - EKS",
     "Ansible/Local Setup (Mac).md",
-    "SQL/SQL - Aggregates.md",
+    "Ansible/Ansible - Cheat sheet.md",
+    "AWS/AWS - General.md",
     "SQL/Postgresql.md",
-    "Obsidian/Obsidian - Style settings - community plug-in.md",
-    "Docker/Docker - Cheat sheet.md",
-    "Docker/Docker - Docker compose.md",
-    "Docker/Docker - Dockerfile.md",
-    "Docker/Docker - Info.md",
-    "Kubernetes/Kubernetes - YAML.md",
-    "Kubernetes/Kubernetes - info.md",
-    "Kubernetes/Kubernetes - Cheat sheet.md",
-    "Terraform/Terraform - Cheat sheet.md",
-    "Terraform/Terraform - Cert prep.md",
+    "Kubernetes/EMR on EKS/Notes.md",
+    "Kubernetes/EMR on EKS",
     "SQL/SQLite.md",
-    "SQL/SQL - Basics.md",
-    "SQL/SQL - Cheat sheet.md",
-    "SQL/SQL - DDL.md",
-    "SQL/SQL - Manipulation.md",
-    "SQL/SQL - Multiple tables.md",
     "SQL/SQL - Querying.md",
+    "SQL/SQL - Multiple tables.md",
+    "SQL/SQL - Manipulation.md",
+    "SQL/SQL - Data Definition Language (DDL).md",
+    "SQL/SQL - Cheat sheet.md",
+    "SQL/SQL - Basics.md",
+    "SQL/SQL - Aggregates.md",
     "Python/Python - Strings.md",
     "Python/Python - Reusing Code.md",
     "Python/Python - Loops.md",
+    "Python/Python - Lists.md",
+    "Python/Python - Functions.md",
+    "Python/Python - Dictionaries.md",
+    "Python/Python - Classes.md",
+    "Python/Python - Basics.md",
+    "Python/Python - Cheat sheet.md",
+    "README.md",
+    "Obsidian/Obsidian - Formatting guide.md",
+    "Images",
+    "AWS",
+    "AWS/AWS - EMR on EKS",
     "Ansible",
-    "Untitled",
     "Docker",
     "Kubernetes",
     "Python",
-    "SQL",
-    "SQL",
-    "Obsidian",
-    "Terraform"
+    "SQL"
   ]
 }

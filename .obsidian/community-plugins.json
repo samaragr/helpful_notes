@@ -2,5 +2,8 @@
   "obsidian-style-settings",
   "cm-editor-syntax-highlight-obsidian",
   "table-editor-obsidian",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "dataview",
+  "callout-manager",
+  "obsidian-list-callouts"
 ]

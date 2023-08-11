@@ -1,4 +1,4 @@
-#loops
+Type: #python #loops #language 
 ## while loops
 #while
 - initialise variables

@@ -1,3 +1,5 @@
+Type: #python #dictionary #language 
+
 - curly brackets
 - mutable
 

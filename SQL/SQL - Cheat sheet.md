@@ -1,7 +1,7 @@
-Type: #SQL #commands 
+Type: #SQL #commands #cheatsheet #language 
 
 ## General 
-#general [[SQL - Manipulation]] [[SQL - DDL]]
+#general [[SQL - Manipulation]] [[SQL - Data Definition Language (DDL)]]
 
 `*` - allows you to select every column without specifying
 `SELECT`  - used to fetch data from a databse (*column name/s*)

@@ -1,4 +1,4 @@
-Type: #SQL #aggregates
+Type: #SQL #aggregates #language 
 
 Calculations performed on multiple rows of a table are called **==aggregates==**
 follows `SELECT` clause

@@ -1,3 +1,5 @@
+Type: #docker #dockerFile #inputFile
+
 ## Instructions
 - `FROM <image>` - specify base image
 - `RUN <args>` - execute specified command

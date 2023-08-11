@@ -1,4 +1,4 @@
-Type: #SQL #DDL  #general #constraints 
+Type: #SQL #DDL  #general #constraints #language 
 
 - `CREATE TABLE` -  Create new table
 	- e.g.

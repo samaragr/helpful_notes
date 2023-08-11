@@ -1,3 +1,5 @@
+Type: #kubernetes #cheatsheet 
+
 ## Kubectl commands
 - `kubectl get`
 	- `pods`-  get all pods

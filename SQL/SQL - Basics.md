@@ -1,4 +1,4 @@
-Type: #SQL #Basics
+Type: #SQL #general #language 
 - Relational databases - organizes information into one or more tables.
 - SQL statements (from clauses/commands) always end with a semi colon `;` 
 	- statement is the query and the clause is the condition of the statement

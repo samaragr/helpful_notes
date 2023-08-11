@@ -1,4 +1,4 @@
-#commandlist #python
+Type: #commands #python #cheatsheet #language
 
 - good example source
 	- https://gist.github.com/JayLee18/f198fa820c296fd306adfb46c8fcf9af

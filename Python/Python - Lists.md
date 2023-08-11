@@ -1,3 +1,5 @@
+Type: #python #list #language 
+
 ## Lists
 #list
 - Lists are sequences of elements of any type and are mutable

@@ -1,3 +1,5 @@
+Type: #docker #cheatsheet #commands
+
 - [[Docker - Docker compose]] - to run multi container applications
 - [[Docker - Dockerfile]] - to build image
 

@@ -1,4 +1,4 @@
-Type: #SQL #SQLite
+Type: #SQL #SQLite #language 
 
 In terminal - cd to Desktop then `sqlite3 acs-1-year-2015.sqlite`
 `.schema` - to id tables, columns and data types

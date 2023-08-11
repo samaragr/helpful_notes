@@ -1,3 +1,5 @@
+Type: #kubernetes #general 
+
 - VScode plug-in for kubernetes 
 	- YAML - red hat & add to settings JSON file
 		- `"kubernetes": "*.yaml*`

@@ -1,3 +1,5 @@
+Type: #python  #general #language 
+
 ## Data types
 - ==String== e.g. "text"
 - ==integer== e.g. 1, 8, 15

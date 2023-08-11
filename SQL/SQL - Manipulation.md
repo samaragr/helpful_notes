@@ -1,4 +1,4 @@
-INSERTType: #SQL #manipulation  #general #constraints #DML
+INSERTType: #SQL #manipulation  #general #constraints #DML #language 
 ## Constraints
 used to tell the database to reject inserted data that does not adhere to a certain restriction
 
