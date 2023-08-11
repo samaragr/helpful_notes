@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
+                "file": "AWS/AWS - EKS/AWS - EKS - eksctl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e04c1698a40072a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/AWS - CloudWatch/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
+                "file": "AWS/AWS - CloudWatch/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
+                "file": "AWS/AWS - CloudWatch/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md"
+                "file": "AWS/AWS - CloudWatch/Untitled.md"
               }
             }
           }
@@ -148,11 +161,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80ad808a3a7ddc6b",
+  "active": "ac783518763af276",
   "lastOpenFiles": [
-    "AWS/AWS - EKS/AWS - EKS - YAML.md",
+    "AWS/AWS - CloudWatch",
     "AWS/AWS - EKS/AWS - EKS - eksctl.md",
+    "AWS/AWS - CloudWatch/Untitled.md",
     "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
+    "AWS/AWS - EKS/AWS - EKS - YAML.md",
     "AWS/AWS - EKS/AWS - EKS - CloudFormation.md",
     "Kubernetes/EMR on EKS/Notes.md",
     "Images/Images.md",
@@ -176,8 +191,6 @@
     "SQL/SQL - Multiple tables.md",
     "SQL/SQL - Manipulation.md",
     "SQL/SQL - Data Definition Language (DDL).md",
-    "SQL/SQL - Cheat sheet.md",
-    "SQL/SQL - Basics.md",
     "Images",
     "AWS",
     "AWS/AWS - EMR on EKS",

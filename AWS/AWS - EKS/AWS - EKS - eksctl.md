@@ -8,4 +8,4 @@ Type: #AWS #EKS #kubernetes #eksctl
 		- us-west-2 region
 		- dedicated VPC
 	- `-f <cluster>.yml` - customise using YAML file
-		- 
+		- [[AWS - EKS - YAML]]
