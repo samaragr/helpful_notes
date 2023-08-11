@@ -27,7 +27,7 @@ Use to highlight info
 
 - You can make a callout foldable by adding a plus (+) or a minus (-) directly after the type identifier. (+) = default expand
 - can be nested
-- 
+
 ### Callout types
 - `[!note]`
 - `[!abstract]` - also summary, tldr
@@ -49,3 +49,4 @@ Use to highlight info
     --callout-icon: lucide-alert-circle;
 }
 ```
+- or see "callout manager" under [[Obsidian - Plug-ins]] for easy custom callouts 

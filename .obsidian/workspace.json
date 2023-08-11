@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
+                "file": "Obsidian/Obsidian - Style settings - community plug-in.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
+                "file": "Obsidian/Obsidian - Style settings - community plug-in.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
+                "file": "Obsidian/Obsidian - Style settings - community plug-in.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md"
+                "file": "Obsidian/Obsidian - Style settings - community plug-in.md"
               }
             }
           }
@@ -175,8 +175,12 @@
   },
   "active": "209911a0cf73a441",
   "lastOpenFiles": [
-    "AWS/AWS - EKS/AWS - EKS -.md",
+    "Obsidian/Obsidian - Shortcuts.md",
+    "Obsidian/Obsidian - Plug-ins.md",
+    "Obsidian/Obsidian - How to.md",
+    "Obsidian/Obsidian - Formatting guide.md",
     "AWS/AWS - EMR on EKS/AWS - EMR on EKS.md",
+    "AWS/AWS - EKS/AWS - EKS -.md",
     "AWS/AWS - EKS",
     "Ansible/Local Setup (Mac).md",
     "Ansible/Ansible - Cheat sheet.md",
@@ -199,10 +203,6 @@
     "Python/Python - Functions.md",
     "Python/Python - Dictionaries.md",
     "Python/Python - Classes.md",
-    "Python/Python - Basics.md",
-    "Python/Python - Cheat sheet.md",
-    "README.md",
-    "Obsidian/Obsidian - Formatting guide.md",
     "Images",
     "AWS",
     "AWS/AWS - EMR on EKS",
