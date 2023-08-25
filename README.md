@@ -1,5 +1,8 @@
 # helpful_notes
 
+These notes have been written in the obsidian app. For full markdown compatibility and syntax highlighting, pull a local copy and open as an obsidian vault. 
+Obsidian how-to, plug-ins, and extra info is included under "Obsidian" directory.
+
 ## List of topics
 - [[Ansible - Cheat sheet|Ansible]]
 - [[AWS - General|AWS]]

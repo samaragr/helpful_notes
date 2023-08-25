@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS - CloudWatch/Untitled.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/AWS - CloudWatch/Untitled.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/AWS - CloudWatch/Untitled.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/AWS - CloudWatch/Untitled.md"
+                "file": "README.md"
               }
             }
           }
@@ -163,41 +163,41 @@
   },
   "active": "ac783518763af276",
   "lastOpenFiles": [
-    "AWS/AWS - CloudWatch",
+    "AWS/AWS - EKS/AWS - EKS - EFS Storage.md",
     "AWS/AWS - EKS/AWS - EKS - eksctl.md",
-    "AWS/AWS - CloudWatch/Untitled.md",
-    "AWS/AWS - EKS/AWS - EKS - EMR on EKS.md",
-    "AWS/AWS - EKS/AWS - EKS - YAML.md",
-    "AWS/AWS - EKS/AWS - EKS - CloudFormation.md",
-    "Kubernetes/EMR on EKS/Notes.md",
-    "Images/Images.md",
-    "Docker/Docker - Dockerfile.md",
-    "Docker/Docker - Info.md",
-    "Docker/Docker - Docker compose.md",
-    "Docker/Docker - Cheat sheet.md",
-    "Obsidian/Obsidian - Style settings - community plug-in.md",
-    "Obsidian/Obsidian - Shortcuts.md",
-    "Obsidian/Obsidian - Plug-ins.md",
-    "Obsidian/Obsidian - How to.md",
-    "Obsidian/Obsidian - Formatting guide.md",
-    "AWS/AWS - EKS",
-    "Ansible/Local Setup (Mac).md",
-    "Ansible/Ansible - Cheat sheet.md",
-    "AWS/AWS - General.md",
-    "SQL/Postgresql.md",
-    "Kubernetes/EMR on EKS",
-    "SQL/SQLite.md",
-    "SQL/SQL - Querying.md",
-    "SQL/SQL - Multiple tables.md",
-    "SQL/SQL - Manipulation.md",
-    "SQL/SQL - Data Definition Language (DDL).md",
-    "Images",
-    "AWS",
-    "AWS/AWS - EMR on EKS",
-    "Ansible",
-    "Docker",
-    "Kubernetes",
-    "Python",
-    "SQL"
+    "AWS/AWS - EKS/Apache Airflow/DAGs/Unit test.md",
+    "AWS/AWS - EKS/Apache Airflow/DAGs/Integration test.md",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/2. Route53.md",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/1. IngressController.md",
+    "Kubernetes/Kubernetes - info.md",
+    "AWS/AWS - EKS/Apache Airflow/Logging/resources/iam/airflow-rbac-role-pods.yml",
+    "AWS/AWS - EKS/Apache Airflow/Logging/resources/deployments/aws-dags-efs-deployment.yml",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/services/airflow-nodeport-dev.yml",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/services/airflow-elb-dev.yml",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/releases/airflow-staging.yml",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/releases/airflow-dev.yml",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/ingresses/create-ingress-commands.sh",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/ingresses/airflow-ssl-ingress-staging.yml",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/ingresses/airflow-ssl-ingress-dev.yml",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/ingresses/airflow-ingress-dev.yml",
+    "AWS/AWS - EKS/Apache Airflow/Logging/3. AWS Secret Manager.md",
+    "AWS/AWS - EKS/Apache Airflow/Logging/2. Release settings.md",
+    "AWS/AWS - EKS/Apache Airflow/Logging/1. Role-based access control.md",
+    "AWS/AWS - EKS/Apache Airflow/Deploy with DAGs/3. Directed-acyclic graph (DAG).md",
+    "AWS/AWS - EKS/Apache Airflow/Deploy with DAGs/4. private DAGs.md",
+    "AWS/AWS - EKS/Apache Airflow/Deploy with DAGs/2. Helm.md",
+    "AWS/AWS - EKS/Apache Airflow/Deploy with DAGs/1. Flux.md",
+    "AWS/AWS - EKS/Apache Airflow/Deploy with AWS CodePipeline/3. Staging Environment.md",
+    "AWS/AWS - EKS/Apache Airflow/Deploy with AWS CodePipeline/4. Cleanup.md",
+    "AWS/AWS - EKS/Apache Airflow/Deploy with AWS CodePipeline/2. Flux.md",
+    "AWS/AWS - EKS/Apache Airflow/Deploy with AWS CodePipeline/1. AWS ECR.md",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/6. Production.md",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/5. Cleanup.md",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/4. Staging Environment.md",
+    "AWS/AWS - EKS/Apache Airflow/Airflow UI/3. Enable SSL.md",
+    "AWS/AWS - EKS/AWS - EKS - LoadBalancer.md",
+    "AWS/AWS - EKS/AWS - EKS - Fargate.md",
+    "Kubernetes/Kubernetes - YAML.md",
+    "Kubernetes/Kubernetes - Cheat sheet.md"
   ]
 }
