@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "AWS/AWS - EKS/AWS - EKS - eksctl.md",
                 "mode": "source",
                 "source": false
@@ -25,6 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
+=======
+>>>>>>> 028f981 (read me)
                 "file": "README.md",
                 "mode": "source",
                 "source": false
