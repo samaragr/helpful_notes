@@ -11,6 +11,11 @@ is_forex_currencies_file_available = FileSensor(
     timeout=20
 )
 ```
+Create new connection in Airflow Amin
+conn_id: `forex_path`
+conn_type: `File(path)`
+host: <empty>
+extra: `{"path":"/opt/airflow/dags/files"}`
 
 - HttpSensor
 ```
@@ -23,6 +28,7 @@ is_forex_rates_available = HttpSensor(
     timeout=20
 )
 ```
+
 
 ### PythonOperator
 ```
@@ -74,59 +80,6 @@ creating_forex_rates_table = HiveOperator(
 
 HIVE Operator doc: https://airflow.apache.org/docs/apache-airflow-providers-apache-hive/stable/_api/airflow/providers/apache/hive/operators/hive/index.html
 
-### Spark submit operator to submit a Spark job
-1. Airflow Admin -> Add Connection
-Conn Id: spark_conn
-Conn type: Spark
-host: spark://spark-master
-port: 7077
-
-2. Python code in DAGs
-```
-forex_processing = SparkSubmitOperator(
-    task_id="forex_processing",
-    application="/opt/airflow/dags/scripts/forex_processing.py",
-    conn_id="spark_conn",
-    verbose=False
-)
-```
-
-Details: 
-https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/index.html
-https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/_api/airflow/providers/apache/spark/hooks/spark_submit/index.html
-
-
-Spark application `forex_processing.py`:
-```
-from os.path import expanduser, join, abspath
-
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import from_json
-
-warehouse_location = abspath('spark-warehouse')
-
-# Initialize Spark Session
-spark = SparkSession \
-    .builder \
-    .appName("Forex processing") \
-    .config("spark.sql.warehouse.dir", warehouse_location) \
-    .enableHiveSupport() \
-    .getOrCreate()
-
-# Read the file forex_rates.json from the HDFS
-df = spark.read.json('hdfs://namenode:9000/forex/forex_rates.json')
-
-# Drop the duplicated rows based on the base and last_update columns
-forex_rates = df.select('base', 'last_update', 'rates.eur', 'rates.usd', 'rates.cad', 'rates.gbp', 'rates.jpy', 'rates.nzd') \
-    .dropDuplicates(['base', 'last_update']) \
-    .fillna(0, subset=['EUR', 'USD', 'JPY', 'CAD', 'GBP', 'NZD'])
-
-# Export the dataframe into the Hive table forex_rates
-forex_rates.write.mode("append").insertInto("forex_rates")
-```
-
-3. test the task: 
-> airflow tasks test forex_data_pipeline forex_processing 2021-01-01
 
 ### EmailOperator
 1. configure email provider
@@ -190,3 +143,23 @@ Password: `[paste the webhook URL]`
 
 3. Alternatively, use `>>` and `<<` instead
 [task_id_A] >> [task_id_B] >> [task_id_C] >> [task_id_D]
+
+
+### Template
+Jinja templating engine
+```
+templated_command = dedent(
+    """
+{% for i in range(5) %}
+    echo "{{ ds }}"
+    echo "{{ macros.ds_add(ds, 7)}}"
+{% endfor %}
+"""
+)
+
+t3 = BashOperator(
+    task_id="templated",
+    depends_on_past=False,
+    bash_command=templated_command,
+)
+```

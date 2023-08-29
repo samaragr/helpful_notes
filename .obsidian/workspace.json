@@ -1,55 +1,39 @@
 {
   "main": {
-    "id": "2ca3121bb7837975",
+    "id": "dfd4ef181c66bc64",
     "type": "split",
     "children": [
       {
-        "id": "174f8d8af7b1c644",
+        "id": "10ecc3787f1cfe4b",
         "type": "tabs",
         "children": [
           {
-            "id": "80ad808a3a7ddc6b",
+            "id": "87a59fc7a7dbf0dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "AWS/AWS - EKS/AWS - EKS - eksctl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e04c1698a40072a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-=======
->>>>>>> 028f981 (read me)
-                "file": "README.md",
+                "file": "SQL/SQL - Cheat sheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "61e0f2b2541414a4",
+    "id": "ad2a7d7d13014d0f",
     "type": "split",
     "children": [
       {
-        "id": "988ff40c31853aaa",
+        "id": "8b29526400fe665e",
         "type": "tabs",
         "children": [
           {
-            "id": "ac783518763af276",
+            "id": "702190a82aaedab4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,7 +43,7 @@
             }
           },
           {
-            "id": "d8ac05110bd16182",
+            "id": "b42eb87f80c53e72",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -74,7 +58,7 @@
             }
           },
           {
-            "id": "cccfd25cc34a07b6",
+            "id": "1141b906a3e90b0c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "551f313c279acc17",
+    "id": "7f73e86b2d4afa0a",
     "type": "split",
     "children": [
       {
-        "id": "edebd747a61ef46f",
+        "id": "fd6685074c4a685b",
         "type": "tabs",
         "children": [
           {
-            "id": "25439ef7b1fc2f8a",
+            "id": "e01b4fe332469365",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "SQL/SQL - Cheat sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,19 +97,19 @@
             }
           },
           {
-            "id": "6043c3f33f991d92",
+            "id": "53cbda8a52607f97",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "SQL/SQL - Cheat sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a23c13a0ac98d3ae",
+            "id": "53928e2d53d66c5b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,12 +120,12 @@
             }
           },
           {
-            "id": "b626822936b6636a",
+            "id": "a03e9287bcdd7d4d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "SQL/SQL - Cheat sheet.md"
               }
             }
           }
@@ -154,53 +138,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "ac783518763af276",
+  "active": "87a59fc7a7dbf0dc",
   "lastOpenFiles": [
-    "AWS/AWS - EKS/AWS - EKS - EFS Storage.md",
-    "AWS/AWS - EKS/AWS - EKS - eksctl.md",
-    "AWS/AWS - EKS/Apache Airflow/DAGs/Unit test.md",
-    "AWS/AWS - EKS/Apache Airflow/DAGs/Integration test.md",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/2. Route53.md",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/1. IngressController.md",
-    "Kubernetes/Kubernetes - info.md",
-    "AWS/AWS - EKS/Apache Airflow/Logging/resources/iam/airflow-rbac-role-pods.yml",
-    "AWS/AWS - EKS/Apache Airflow/Logging/resources/deployments/aws-dags-efs-deployment.yml",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/services/airflow-nodeport-dev.yml",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/services/airflow-elb-dev.yml",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/releases/airflow-staging.yml",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/releases/airflow-dev.yml",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/ingresses/create-ingress-commands.sh",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/ingresses/airflow-ssl-ingress-staging.yml",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/ingresses/airflow-ssl-ingress-dev.yml",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/resources/ingresses/airflow-ingress-dev.yml",
-    "AWS/AWS - EKS/Apache Airflow/Logging/3. AWS Secret Manager.md",
-    "AWS/AWS - EKS/Apache Airflow/Logging/2. Release settings.md",
-    "AWS/AWS - EKS/Apache Airflow/Logging/1. Role-based access control.md",
-    "AWS/AWS - EKS/Apache Airflow/Deploy with DAGs/3. Directed-acyclic graph (DAG).md",
-    "AWS/AWS - EKS/Apache Airflow/Deploy with DAGs/4. private DAGs.md",
-    "AWS/AWS - EKS/Apache Airflow/Deploy with DAGs/2. Helm.md",
-    "AWS/AWS - EKS/Apache Airflow/Deploy with DAGs/1. Flux.md",
-    "AWS/AWS - EKS/Apache Airflow/Deploy with AWS CodePipeline/3. Staging Environment.md",
-    "AWS/AWS - EKS/Apache Airflow/Deploy with AWS CodePipeline/4. Cleanup.md",
-    "AWS/AWS - EKS/Apache Airflow/Deploy with AWS CodePipeline/2. Flux.md",
-    "AWS/AWS - EKS/Apache Airflow/Deploy with AWS CodePipeline/1. AWS ECR.md",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/6. Production.md",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/5. Cleanup.md",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/4. Staging Environment.md",
-    "AWS/AWS - EKS/Apache Airflow/Airflow UI/3. Enable SSL.md",
-    "AWS/AWS - EKS/AWS - EKS - LoadBalancer.md",
-    "AWS/AWS - EKS/AWS - EKS - Fargate.md",
-    "Kubernetes/Kubernetes - YAML.md",
-    "Kubernetes/Kubernetes - Cheat sheet.md"
+    "SQL/SQL - Basics.md",
+    "Python/Python - Strings.md",
+    "Python/Python - Reusing Code.md",
+    "Python/Python - Loops.md",
+    "Python/Python - Lists.md",
+    "Python/Python - Functions.md",
+    "Python/Python - Dictionaries.md",
+    "Python/Python - Classes.md",
+    "Python/Python - Cheat sheet.md",
+    "Python/Python - Basics.md",
+    "Apache Airflow/DAGs/Python Syntax.md",
+    "README.md",
+    "Apache Airflow/Airflow General.md",
+    "Apache Airflow/CICD with EKS/Deploy with AWS CodePipeline/1. AWS ECR.md"
   ]
 }
