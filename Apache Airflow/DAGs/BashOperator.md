@@ -1,3 +1,14 @@
+- use BashOperator to save file in HDFS
+```
+saving_rates = BashOperator(
+    task_id="saving_rates",
+    bash_command="""
+        hdfs dfs -mkdir -p /forex && \
+        hdfs dfs -put -f $AIRFLOW_HOME/dags/files/forex_rates.json /forex
+    """
+)
+```
+
 ### Basic usage
 ```
 run_this = BashOperator(
