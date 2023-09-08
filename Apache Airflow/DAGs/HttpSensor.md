@@ -1,3 +1,8 @@
+- Create connection
+conn id: forex_api
+conn type: HTTP
+host: https://gist.github.com/
+
 - HttpSensor
 ```
 is_forex_rates_available = HttpSensor(
@@ -10,13 +15,5 @@ is_forex_rates_available = HttpSensor(
 )
 ```
 
-
-### PythonOperator
-```
-downloading_rates = PythonOperator(
-    task_id="downloading_rates",
-    python_callable=download_rates
-)
-```
-
-Details: https://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/operators/python/index.html#airflow.operators.python.PythonOperator
+Details: 
+https://airflow.apache.org/docs/apache-airflow-providers-http/stable/_api/airflow/providers/http/sensors/http/index.html#module-airflow.providers.http.sensors.http

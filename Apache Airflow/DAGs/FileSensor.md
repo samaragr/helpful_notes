@@ -1,3 +1,9 @@
+- Create new connection in Airflow Amin
+conn_id: `forex_path`
+conn_type: `File(path)`
+host: <empty>
+extra: `{"path":"/opt/airflow/dags/files"}`
+
 - FileSensor
 ```
 is_forex_currencies_file_available = FileSensor(
@@ -8,8 +14,6 @@ is_forex_currencies_file_available = FileSensor(
     timeout=20
 )
 ```
-Create new connection in Airflow Amin
-conn_id: `forex_path`
-conn_type: `File(path)`
-host: <empty>
-extra: `{"path":"/opt/airflow/dags/files"}`
+
+Details: 
+https://airflow.apache.org/docs/apache-airflow/2.1.4/_api/airflow/sensors/filesystem/index.html
