@@ -1,7 +1,12 @@
 
 ### HiveTable
 1. Add new connection in Airflow
-
+conn id: hive_conn
+conn type: Hive Server2 Thrift
+host: hive-server
+Login: hive
+password: hive
+port: 10000
 
 2. Add python code in DAGs
 ```
