@@ -11,7 +11,8 @@ from datetime import datetime
 
 def decide_next_task():
     if some_condition:
-        return 'task_true    else:
+        return 'task_true'
+    else:
         return 'task_false'
 
 dag = DAG(
